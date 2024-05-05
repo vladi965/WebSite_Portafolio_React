@@ -2,6 +2,9 @@
 .title {
   color: #00d595;
 }
+.paragraph {
+  color: #00a976;
+}
 .raya {
   height: 5px;
   background-color: #141414;
@@ -15,6 +18,10 @@
 }
 .image {
   width: 380px;
+}
+.image-logo {
+  width: 46px;
+  height: 37px;
 }
 .hover-svg path {
   transition: all 300ms ease;
@@ -43,4 +50,27 @@
 .text-pagrahp {
   color: #3a3a3a;
   text-align: center;
+}
+.box-project {
+  width: 340px;
+  height: 500px;
+}
+.box-titleDev {
+  border: 1px solid #00a976;
+}
+.image-project {
+  width: auto;
+  height: auto;
+}
+.bg-project {
+  background: #f7f8f8;
+}
+.btn-tooltip {
+  width: 90px;
+  background: #00a976;
+  text-align: center;
+}
+.relative:hover .absolute {
+  opacity: 1;
+  z-index: 10;
 }

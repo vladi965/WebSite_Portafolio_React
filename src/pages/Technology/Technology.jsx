@@ -7,7 +7,7 @@ function Technology() {
     return (
         <div>
             <HeaderComponent />
-            <div className='flex justify-between items-center px-16 mt-16'>
+            <div className='flex justify-between px-16 mt-16'>
                 <div className='flex flex-col'>
                     <h1 className="font-semibold text-6xl mb-4">Tecnologías</h1>
                     <div className='max-wd'>

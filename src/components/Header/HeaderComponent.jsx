@@ -1,12 +1,13 @@
 import React from 'react'
+import logo from '../../assets/logo/logo-vladimir.png';
+
 
 function HeaderComponent() {
     return (
         <header className='flex justify-between w-full items-center px-16 py-9'>
             <div>
-                <svg width="53" height="53" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M28 29C28 27.9391 28.4214 26.9217 29.1716 26.1716C29.9217 25.4214 30.9391 25 32 25C33.0609 25 34.0783 25.4214 34.8284 26.1716C35.5786 26.9217 36 27.9391 36 29M56 25H58M56 25C56 37 54 41 46 41C38 41 36 37 36 25C36 25 38 23 46 23C54 23 56 25 56 25ZM8 25H6M8 25C8 37 10 41 18 41C26 41 28 37 28 25C28 25 26 23 18 23C10 23 8 25 8 25Z" stroke="#141414" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
+                {/* Logo */}
+                <img src={logo} alt='Logo personal' className='image-logo object-contain' />
             </div>
             <div className='flex justify-between gap-5 items-center'>
                 <div>
